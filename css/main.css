@@ -1,6 +1,7 @@
 body {
     background: #ede9e0;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -13,6 +14,14 @@ body {
     width: 930px;
     margin: 0 auto;
     border: 1px solid red;
+}
+
+.header {
+    background-image: url(../img/dog-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    background-size: 220px;
 }
 
 .header__logo {
@@ -52,15 +61,6 @@ body {
 }
 
 
-.wrapper {
-    background-image: url(../img/dog-bg.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-position-x: left;
-    background-size: 220px;
-
-}
-
 .promo__title {
     font-size: 48px;
 }
@@ -69,12 +69,243 @@ body {
     color: #727173;
     border-left: 2px solid purple;
     padding-left: 5px;
+    margin-bottom: 150px;
 }
 
 
 .about {
     background: #510fad;
 }
+
+
+.about-text__wrap {
+    margin-left: 315px;
+}
+
+.about__title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.about__motto {
+    color: #b1a2c6;
+}
+
+.about-wrap {
+    display: flex;
+}
+
+
+.about-wrap__unmarked {
+    margin-top: 55px;
+    color: white;
+}
+
+.about-wrap__list {
+    margin: 18px 0px;
+}
+
+.about-wrap__link {
+    text-decoration: none;
+    color: #f3dd0c;
+    font-weight: bold;
+}
+
+.breed-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breed__title {
+    text-align: center;
+}
+
+.breed-wrap__card {
+    width: 50%;
+}
+
+.breed-inner__flex {
+    display: flex;
+}
+
+
+.breed-wrap__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.breed-wrap__text {
+    width: 289px;    
+    color: #737274;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.breed-dog__img {
+    width: 135px;
+    height: 135px;
+}
+
+
+
+/*review*/
+
+.review__wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.review__title {
+    color: #202020;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.review__title {
+    text-align: center;
+}
+
+
+.review-list__item {
+    list-style: none;
+}
+
+.review-list__name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.review-list__quote {
+    width: 439px;
+}
+
+.review-list__quote {
+    color: 202020;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.review-list__data {
+    font-style: italic;
+    color: #737274;
+}
+
+
+.review-list__photo {
+    margin-top: 40px;
+    width: 440px;
+    height: 264px;
+}
+
+.review-list__photo-figcaption {
+    color: #737274;
+    margin-left: 35px;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+
+/*all about section*/
+
+.all-about__wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: url(../img/backgroun_pattern.png);
+    padding-top: 65px;
+
+}
+
+.all-about__wrapp__title {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 3px;
+
+
+}
+
+.all-about__wrapp__text {
+    color: #b8adc8;
+    line-height: 27px;
+
+}
+
+.all-about__left-block {
+    padding-left: 30px;
+    width: 48%;
+}
+
+.all-about__right-block {
+    display: flex;
+    width: 50%; 
+    padding-bottom: 150px;
+}
+
+.all-about__card {
+    width: 216px;
+    margin: 0;
+    
+}
+
+.all-about__card-img {
+    width: 230px;
+    height: 312px;
+}
+
+.all-about__card-img--right {
+    width: 200px;
+    height: 290px;
+    margin-top: 10px;
+}
+
+.all-about__card__img-figcaption {
+    font-size: 14px;
+    color: #202020;
+    margin-left: 35px;
+    margin-top: -100px;
+}
+
+.all-about__card-link{
+    padding-left: 35px;
+}
+
+.all-about__link {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+
+.all-about__link--left {
+    background-image: url(../img/social-icon-vk.png);
+}
+
+.all-about__link--middle {
+    background-image: url(../img/social-icon-facebook.png);
+}
+
+.all-about__link--right {
+    background-image: url(../img/social-icon-instagram.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

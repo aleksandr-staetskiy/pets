@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pets</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -36,19 +37,21 @@
 
             <section class="about">
                 <div class="container">
-                    <h2 class="about__title">О питомнике</h2>
-                    <p class="about__motto">
-                        Наш питомник — не просто дом для животных,  а семья из разных п
-                    </p>
+                    <div class="about-text__wrap">
+                        <h2 class="about__title">О питомнике</h2>
+                        <p class="about__motto">
+                            Наш питомник — не просто дом для животных, <br> а семья из разных п
+                        </p>
+                    </div>
                     <div class="about-wrap">
-                        <img src="" alt="" class="about-wrap__img">
-                        <ul class="about-wrap__list">
-                            <li>Лучшие представители своей породы</li>
-                            <li>Сбалансированый рацион питания питомца</li>
-                            <li>Ежедневный уход и тренировки </li>
-                            <li>Веселье, свежий воздух и отличная компания</li>
+                        <img src="./img/about_img.png" alt="" class="about-wrap__img">
+                        <ul class="about-wrap__unmarked">
+                            <li class="about-wrap__list">Лучшие представители своей породы</li>
+                            <li class="about-wrap__list">Сбалансированый рацион питания питомца</li>
+                            <li class="about-wrap__list">Ежедневный уход и тренировки </li>
+                            <li class="about-wrap__list">Веселье, свежий воздух и отличная компания</li>
+                            <a href="" class="about-wrap__link">Видео с наших прогулок</a>
                         </ul>
-                        <a href="" class="about-wrap__link"></a>
                     </div>
                 </div>
             </section>
@@ -59,46 +62,50 @@
                     <div class="breed-wrap">
 
                         <div class="breed-wrap__card">
-                            <h3 class="breed-wrap__title">
-                                Французский бульдог
-                            </h3>
-                            <p class="breed-wrap__text">
-                                Идеальный вариант городской собаки — они входят в тройку самых
-                            </p>
-                            <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                            <h3 class="breed-wrap__title">Французский бульдог</h3>
+                                <div class="breed-inner__flex">
+                                    <img src="./img/photo_french_bulldog.png" alt="" class="breed-dog__img">
+                                    <p class="breed-wrap__text">
+                                        Идеальный вариант городской собаки — они входят в тройку самых популярных собак на планете. Любят короткие прогулки и хорошо поспать.
+                                         <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                                    </p>
+                                </div>
                         </div>
 
 
                         <div class="breed-wrap__card">
-                            <h3 class="breed-wrap__title">
-                                Золотистый ретривер
-                            </h3>
-                            <p class="breed-wrap__text">
-                                Добродушные, ориентированные на людей собаки. Они отлично ведут.
-                            </p>
-                            <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                            <h3 class="breed-wrap__title">Золотистый ретривер</h3>
+                            <div class="breed-inner__flex">
+                                <img src="./img/photo_golden_retriever.png" alt="" class="breed-dog__img">
+                                <p class="breed-wrap__text">
+                                    Добродушные, ориентированные на людей собаки. Они отлично ведут себя с детьми и больными. Могут быть повадырями.
+                                    <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                                </p>
+                            </div>
                         </div>
 
 
                         <div class="breed-wrap__card">
-                            <h3 class="breed-wrap__title">
-                                Чау-чау
-                            </h3>
-                            <p class="breed-wrap__text">
-                                Эти собаки с характером. Они всегда серьезны но временами прояв
-                            </p>
-                            <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                            <h3 class="breed-wrap__title">Чау-чау</h3>
+                            <div class="breed-inner__flex">
+                                <img src="./img/photo_chow_chow.png" alt="" class="breed-dog__img">
+                                <p class="breed-wrap__text">
+                                    Эти собаки с характером. Они всегда серьезны но временами проявляют характер.
+                                    <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                                </p>
+                            </div>
                         </div>
 
 
                         <div class="breed-wrap__card">
-                            <h3 class="breed-wrapp__title">
-                                Пудель
-                            </h3>
-                            <p class="breed-wrap__text">
-                                Активные и компанейские собаки. Любят много гулять, обладают отличным чувстом юмора
-                            </p>
-                            <a href="" class="breed_wrapp__link">Посмотреть щенков</a>
+                            <h3 class="breed-wrap__title">Пудель</h3>
+                            <div class="breed-inner__flex">
+                                <img src="./img/photo_poodle.png" alt="" class="breed-dog__img">
+                                <p class="breed-wrap__text">
+                                    Активные и компанейские собаки. Любят много гулять, обладают отличным чувством юмора.
+                                    <a href="" class="breed_wrap__link">Посмотреть щенков</a>
+                                </p>
+                            </div>
                         </div>
 
                     </div>
@@ -110,38 +117,45 @@
                     <h4 class="review__title">
                         Отзывы хозяев
                     </h4>
-                    <ul class="review-list">
-                        <li></li>
-                        <li><span class="review-list__name">Татьяна Зверева</span></li>
-                        <li><date class="review-list__data"></date></li>
-                        <li><blockquote class="review-list__quote">Xочу выразить большую благодарность Вам за это чудо – малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте Вашего питомника. Очень умный малыш!</blockquote></li>
-                    </ul>
-                    <figure class="review-list__figure">
-                        <img src="" class="review-list__photo" alt="" />
-                        <figcaption class="review-list__photo-figcaption">Больше отзывов можно найти у нас в <a href="" class="review-list__photo-link">группе ВК</a></figcaption>
-                    </figure>
-                </div>
+                        <div class="review__wrapper">
+
+                            <ul class="review-list">
+                                <li class="review-list__item"><img src="./img/“.png" alt="" class="review-list__img"></li>
+                                <li class="review-list__item"><span class="review-list__name">Татьяна Зверева</span></li>
+                                <li class="review-list__item"><span class="review-list__data">27.02.2018</span></li>
+                                 <li class="review-list__item"><p class="review-list__quote">Xочу выразить большую благодарность Вам за это чудо – малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте Вашего питомника. Очень умный малыш!</p></li>
+                            </ul>
+                            <div class="review-list__figure">
+                                <img src="./img/photo_review.png" class="review-list__photo" alt="dog and girl" />
+                                <figcaption class="review-list__photo-figcaption">Больше отзывов можно найти у нас в <a href="" class="review-list__photo-link">группе ВК</a></figcaption>
+                            </div>
+
+                        </div>
+                     </div>
             </section>
 
             <section class="all-about">
                 <div class="container">
                     <div class="all-about__wrap">
-                        <h4 class="all-about__wrapp__title">Все о животных</h4>
-                        <p class="all-about__wrapp__text">Мы ведем активный блог про наших животных в социальных сетях — присоединяйстесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
-                        <link rel="stylesheet" href="" class="all-about__link  all-about__link--left">
-                        <link rel="stylesheet" href="" class="all-about__link  all-about__link--middle">
-                        <link rel="stylesheet" href="" class="all-about__link  all-about__link--right">
 
-                        <div class="all-about__wrap__right">
+                            <div class="all-about__left-block">
+                                <h4 class="all-about__wrapp__title">Все о животных</h4>
+                                <p class="all-about__wrapp__text">Мы ведем активный блог про наших животных в социальных сетях — присоединяйстесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
+                                <a rel="stylesheet" href="" class="all-about__link  all-about__link--left">
+                                 <a rel="stylesheet" href="" class="all-about__link  all-about__link--middle">
+                                 <a rel="stylesheet" href="" class="all-about__link  all-about__link--right">
+                             </div>
+
+                        <div class="all-about__right-block">
 
                             <figure class="all-about__card">
-                                <img src="" class="all-about__card-img" alt="" />
+                                <img src="img/blog_list_img_2.png" class="all-about__card-img" alt="" />
                                 <figcaption class="all-about__card__img-figcaption">Правильный рацион для взрослого пса</figcaption>
                                 <a href="" class="all-about__card__link">Читать статью</a>
                             </figure>
 
                             <figure class="all-about__card">
-                                <img src="" class="all-about__card-img" alt="" />
+                                <img src="img/blog_list_img_1.png" class="all-about__card-img  all-about__card-img--right" alt="" />
                                 <figcaption class="all-about__card__img-figcaption">Бывает ли собачья депрессия?</figcaption>
                                 <a href="" class="all-about__card__link">Читать статью</a>
                             </figure>
