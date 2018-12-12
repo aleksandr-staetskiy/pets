@@ -7,13 +7,11 @@ body {
 .wrapper {
     width: 1020px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .container {
     width: 930px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .header {
@@ -152,6 +150,12 @@ body {
 
 /*review*/
 
+
+.review {
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+
 .review__wrapper {
     display: -webkit-flex;
     display: -moz-flex;
@@ -277,22 +281,109 @@ body {
     padding-left: 35px;
 }
 
-.all-about__link {
+.all-about__link-vk {
     width: 26px;
     height: 26px;
     display: inline-block;
-}
-
-.all-about__link--left {
     background-image: url(../img/social-icon-vk.png);
 }
 
-.all-about__link--middle {
+.all-about__link-fb {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
     background-image: url(../img/social-icon-facebook.png);
 }
 
-.all-about__link--right {
+.all-about__link-insta {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
     background-image: url(../img/social-icon-instagram.png);
+}
+
+
+/*cantacts section*/
+
+.contacts__title {
+    font-size: 30px;
+    padding-top: 29px;
+}
+
+.contacts-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-wrap__card {
+    width: 50%;
+}
+
+.contacts-wrap__title {
+    color: #737274;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contacts-wrap__description {
+    color: #202020;
+    margin-top: 12px;
+
+}
+
+
+
+/*foooter*/
+
+.footer {
+    margin-top: 70px;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #737274;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.footer__item {
+    margin-left: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #737274;
+}
+
+.footer__link-vk {
+    margin-left: auto;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-image: url(../img/social-icon-vk-pur.png);
+}
+
+.footer__link-fb {
+    margin-left: 5px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-image: url(../img/social-icon-facebook-pur.png);
+}
+
+.footer__link-insta {
+    margin-left: 5px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-image: url(../img/social-icon-instagram-purr.png);
 }
 
 
