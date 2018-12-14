@@ -123,21 +123,34 @@ body {
     padding-bottom: 70px
 }
 
-
 .about-wrap__unmarked {
-    margin-top: 55px;
+    margin-top: 85px;
     color: white;
 }
 
 .about-wrap__list {
+    font-size: 14px;
     margin: 18px 0px;
 }
 
 .about-wrap__link {
+    display: block;
     text-decoration: none;
     color: #f3dd0c;
     font-weight: bold;
+    margin-left: 19px;
+    margin-top: 58px;
 }
+
+.about-wrap__link:after {
+    display: inline-block;
+    content: '';
+    background-image: url(../img/arrow_next.png);
+    width: 21px;
+    height: 15px;
+    margin-left: 15px;
+
+}   
 
 
 /*breed section*/
@@ -183,6 +196,24 @@ body {
 .breed-dog__img {
     width: 135px;
     height: 135px;
+}
+
+.breed_wrap__link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 145px;
+}
+
+.breed_wrap__link:after {
+    display: inline-block;
+    content: '';
+    background-image: url(../img/arrow_pur.png);
+    width: 21px;
+    height: 15px;
+    margin-left: 15px;
 }
 
 
