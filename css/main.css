@@ -14,13 +14,17 @@ body {
     margin: 0 auto;
 }
 
-.header {
+
+.header__logo:after {
+    position: absolute;
+    content: '';
+    display: block;
     background-image: url(../img/dog-bg.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-position-x: left;
-    background-size: 220px;
+    width: 300px;
+    height: 300px;
+
 }
+
 
 .header__logo {
     margin-top: 5px;
@@ -71,8 +75,31 @@ body {
 }
 
 
+/*about section*/
+
 .about {
+    position: relative;
     background: #510fad;
+}
+
+.about:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 90px;
+    bottom: 100%;
+    background-image: url(../img/images/before1.png);
+}
+
+.about:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 89px;
+    top: 100%;
+    background-image: url(../img/images/after.png);
 }
 
 
@@ -83,6 +110,7 @@ body {
 .about__title {
     color: white;
     font-size: 36px;
+    padding-top: 70px;
     margin-bottom: 0;
 }
 
@@ -92,6 +120,7 @@ body {
 
 .about-wrap {
     display: flex;
+    padding-bottom: 70px
 }
 
 
@@ -110,13 +139,23 @@ body {
     font-weight: bold;
 }
 
+
+/*breed section*/
+
+.breed {
+    margin-top: 150px;
+}
+
+
 .breed-wrap {
     display: flex;
     flex-wrap: wrap;
 }
 
 .breed__title {
+    font-size: 30px;
     text-align: center;
+    color: black;
 }
 
 .breed-wrap__card {
